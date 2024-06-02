@@ -3,11 +3,15 @@ pipeline {
     stages {
         stage('Build docker image') {
             steps {
-                sh '''
-                    docker build ...
-                    # docker tag ..
-                    docker push ...
-                '''
+                withCredentials([usernamePassword(credentialsId: 'mydockerlogin', variable: 'USERPASS')]) {
+                    sh '''
+
+                        docker login -u ... -p ...
+                        docker build ...
+                        # docker tag ..
+                        docker push ...
+                    '''
+                }
             }
         }
     }
