@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build docker image') {
             steps {
-                withCredentials([usernamePassword(credentialsId: 'mydockerlogin', variable: 'USERPASS')]) {
+                withCredentials([usernamePassword(credentialsId: 'mydockerlogin', usernameVariable: 'USER', passwordVariable: 'PASS')]) {
                     sh '''
 
                         docker login -u ... -p ...
