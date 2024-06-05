@@ -4,7 +4,10 @@ pipeline {
         stage('Build docker image') {
             steps {
                     sh '''
-                        echo "hello world"
+                        # cd polybot
+
+                        docker build -t roberta_app:${BUILD_NUMBER} .
+                        docker push alonithuji/roberta_app:${BUILD_NUMBER}
                     '''
 
             }
