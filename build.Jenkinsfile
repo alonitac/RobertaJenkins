@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMG_NAME = roberta_app:${BUILD_NUMBER}
+        IMG_NAME = "roberta_app:${BUILD_NUMBER}"
     }
 
     stages {
