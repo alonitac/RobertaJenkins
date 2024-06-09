@@ -9,7 +9,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 sh '''
-                    echo deploying to k8s cluster ..( or any other alternative)
+                    echo "deploying to k8s cluster ..( or any other alternative)"
                 '''
             }
         }
