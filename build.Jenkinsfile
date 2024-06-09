@@ -21,5 +21,14 @@ pipeline {
               }
             }
         }
+
+        stage('Trigger Deploy') {
+            steps {
+                build job: 'RobertaDeploy', wait: false, parameters: [
+                    string(name: 'IMAGE_URL', value: "alonithuji/$IMG_NAME")
+                ]
+            }
+        }
+
     }
 }
