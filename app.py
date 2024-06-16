@@ -15,6 +15,11 @@ def readability():
     return textstat.flesch_kincaid_grade(text)
 
 
+@app.route('/')
+def hello():
+    return 'hello world'
+
+
 @app.route('/analyze')
 def analyze():
     text = request.args.get('text')
