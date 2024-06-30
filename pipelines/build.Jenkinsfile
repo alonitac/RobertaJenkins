@@ -3,10 +3,9 @@
 pipeline {
     agent any
 
-    properties([
-        pipelineTriggers([githubPush()]),
-        githubProjectUrl('https://github.com/your-username/your-repo')
-    ])
+    triggers {
+        githubPush()
+    }
 
     stages {
         stage('Build') {
