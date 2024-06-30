@@ -3,6 +3,10 @@
 pipeline {
     agent any
 
+    environment {
+        GIT_URL = 'https://github.com/your-username/your-repo'
+    }
+
     triggers {
         githubPush()
     }
