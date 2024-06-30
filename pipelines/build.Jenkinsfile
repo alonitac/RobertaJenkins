@@ -7,6 +7,10 @@ pipeline {
         GIT_URL = 'https://github.com/your-username/your-repo'
     }
 
+    properties([
+    [$class: 'GitHubProjectProperty', projectUrlStr: 'https://github.com/your-username/your-repo']
+])
+
     triggers {
         githubPush()
     }
