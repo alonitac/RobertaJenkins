@@ -23,8 +23,10 @@ pipeline {
             }
         }
         stage('Tests after build') {
-            steps {
-                sh 'echo "scanning for vulnerabilities..."'
+            stage('API test') {
+                steps {
+                    sh 'echo "scanning for vulnerabilities..."'
+                }
             }
             parallel {
               stage('API test') {
