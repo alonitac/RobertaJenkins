@@ -29,7 +29,7 @@ pipeline {
         }
         stage('Tests after build') {
             parallel {
-              stage('API test') {
+              stage('Security vulnerabilities scanning') {
                     steps {
                         sh 'echo "scanning for vulnerabilities..."'
                     }
