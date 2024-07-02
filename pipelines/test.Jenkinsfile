@@ -11,7 +11,13 @@ pipeline {
              }
              stage('Lint') {
                  steps {
-                     sh 'echo "linting..."'
+                     sh 'npm run lint'
+                 }
+                 post {
+                     always {
+                         // Publish ESLint results
+                         junit 'junit-reports/*.xml'
+                     }
                  }
              }
             }
