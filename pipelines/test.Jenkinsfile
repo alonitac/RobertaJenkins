@@ -22,13 +22,18 @@ pipeline {
              }
             }
         }
-        stage('Tests after build') {
-            stage('API test') {
-                steps {
-                    sh 'echo "scanning for vulnerabilities..."'
-                }
+        stage('Build the app') {
+            steps {
+                sh 'building ....'
             }
+        }
+        stage('Tests after build') {
             parallel {
+              stage('API test') {
+                    steps {
+                        sh 'echo "scanning for vulnerabilities..."'
+                    }
+              }
               stage('API test') {
                  steps {
                      sh 'echo "testing API..."'
