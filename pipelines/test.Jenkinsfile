@@ -24,7 +24,7 @@ pipeline {
         }
         stage('Build the app') {
             steps {
-                sh 'building ....'
+                sh 'echo building ....'
             }
         }
         stage('Tests after build') {
