@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+<testsuite package="org.eslint" time="0" tests="1" errors="1" name="/home/alon/Documents/NetflixFrontend/components/Banner/index.tsx">
+<testcase time="0" name="org.eslint.react-hooks/exhaustive-deps" classname="/home/alon/Documents/NetflixFrontend/components/Banner/index"><failure message="React Hook useEffect has a missing dependency: &apos;getMedia&apos;. Either include it or remove the dependency array."><![CDATA[line 32, col 6, Warning - React Hook useEffect has a missing dependency: &apos;getMedia&apos;. Either include it or remove the dependency array. (react-hooks/exhaustive-deps)]]></failure></testcase>
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/components/Button/index.tsx">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/components/Button/index.tsx" classname="/home/alon/Documents/NetflixFrontend/components/Button/index" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/components/Dialog.tsx">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/components/Dialog.tsx" classname="/home/alon/Documents/NetflixFrontend/components/Dialog" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/components/Footer/index.tsx">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/components/Footer/index.tsx" classname="/home/alon/Documents/NetflixFrontend/components/Footer/index" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/components/Layout/index.tsx">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/components/Layout/index.tsx" classname="/home/alon/Documents/NetflixFrontend/components/Layout/index" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/components/List/Cards.tsx">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/components/List/Cards.tsx" classname="/home/alon/Documents/NetflixFrontend/components/List/Cards" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/components/List/FeatureCards.tsx">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/components/List/FeatureCards.tsx" classname="/home/alon/Documents/NetflixFrontend/components/List/FeatureCards" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="1" name="/home/alon/Documents/NetflixFrontend/components/List/index.tsx">
+<testcase time="0" name="org.eslint.react-hooks/exhaustive-deps" classname="/home/alon/Documents/NetflixFrontend/components/List/index"><failure message="React Hook useEffect has a missing dependency: &apos;getEndpoint&apos;. Either include it or remove the dependency array."><![CDATA[line 35, col 6, Warning - React Hook useEffect has a missing dependency: &apos;getEndpoint&apos;. Either include it or remove the dependency array. (react-hooks/exhaustive-deps)]]></failure></testcase>
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/components/Modal/index.tsx">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/components/Modal/index.tsx" classname="/home/alon/Documents/NetflixFrontend/components/Modal/index" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/components/Navbar/Menu.tsx">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/components/Navbar/Menu.tsx" classname="/home/alon/Documents/NetflixFrontend/components/Navbar/Menu" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/components/Navbar/Profile.tsx">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/components/Navbar/Profile.tsx" classname="/home/alon/Documents/NetflixFrontend/components/Navbar/Profile" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/components/Navbar/SearchBar.tsx">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/components/Navbar/SearchBar.tsx" classname="/home/alon/Documents/NetflixFrontend/components/Navbar/SearchBar" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/components/Navbar/index.tsx">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/components/Navbar/index.tsx" classname="/home/alon/Documents/NetflixFrontend/components/Navbar/index" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/config/breakpoints.ts">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/config/breakpoints.ts" classname="/home/alon/Documents/NetflixFrontend/config/breakpoints" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/config/genres.ts">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/config/genres.ts" classname="/home/alon/Documents/NetflixFrontend/config/genres" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/config/route.ts">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/config/route.ts" classname="/home/alon/Documents/NetflixFrontend/config/route" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/context/ModalContext.tsx">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/context/ModalContext.tsx" classname="/home/alon/Documents/NetflixFrontend/context/ModalContext" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="1" name="/home/alon/Documents/NetflixFrontend/hooks/useDebounce.tsx">
+<testcase time="0" name="org.eslint.react-hooks/exhaustive-deps" classname="/home/alon/Documents/NetflixFrontend/hooks/useDebounce"><failure message="React Hook useEffect has a missing dependency: &apos;delay&apos;. Either include it or remove the dependency array."><![CDATA[line 17, col 6, Warning - React Hook useEffect has a missing dependency: &apos;delay&apos;. Either include it or remove the dependency array. (react-hooks/exhaustive-deps)]]></failure></testcase>
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/hooks/useDimensions.ts">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/hooks/useDimensions.ts" classname="/home/alon/Documents/NetflixFrontend/hooks/useDimensions" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/hooks/useExternalClick.ts">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/hooks/useExternalClick.ts" classname="/home/alon/Documents/NetflixFrontend/hooks/useExternalClick" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/hooks/useScrollLimit.ts">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/hooks/useScrollLimit.ts" classname="/home/alon/Documents/NetflixFrontend/hooks/useScrollLimit" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/next-env.d.ts">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/next-env.d.ts" classname="/home/alon/Documents/NetflixFrontend/next-env.d" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/next.config.js">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/next.config.js" classname="/home/alon/Documents/NetflixFrontend/next.config" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/pages/_app.tsx">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/pages/_app.tsx" classname="/home/alon/Documents/NetflixFrontend/pages/_app" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/pages/api/analytics.ts">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/pages/api/analytics.ts" classname="/home/alon/Documents/NetflixFrontend/pages/api/analytics" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/pages/api/discover.ts">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/pages/api/discover.ts" classname="/home/alon/Documents/NetflixFrontend/pages/api/discover" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/pages/browse.tsx">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/pages/browse.tsx" classname="/home/alon/Documents/NetflixFrontend/pages/browse" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/pages/index.tsx">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/pages/index.tsx" classname="/home/alon/Documents/NetflixFrontend/pages/index" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/pages/search.tsx">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/pages/search.tsx" classname="/home/alon/Documents/NetflixFrontend/pages/search" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/types/index.ts">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/types/index.ts" classname="/home/alon/Documents/NetflixFrontend/types/index" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/utils/apiResolvers.ts">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/utils/apiResolvers.ts" classname="/home/alon/Documents/NetflixFrontend/utils/apiResolvers" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/utils/axios.ts">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/utils/axios.ts" classname="/home/alon/Documents/NetflixFrontend/utils/axios" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/utils/icons.ts">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/utils/icons.ts" classname="/home/alon/Documents/NetflixFrontend/utils/icons" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/utils/redisClient.ts">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/utils/redisClient.ts" classname="/home/alon/Documents/NetflixFrontend/utils/redisClient" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/home/alon/Documents/NetflixFrontend/utils/session.ts">
+<testcase time="0" name="/home/alon/Documents/NetflixFrontend/utils/session.ts" classname="/home/alon/Documents/NetflixFrontend/utils/session" />
+</testsuite>
+</testsuites>

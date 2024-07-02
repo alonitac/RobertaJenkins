@@ -13,13 +13,14 @@ pipeline {
                  steps {
                      sh 'echo linting'
                  }
-//                 post {
-//                     always {
-//                         // Publish ESLint results
-//                         junit 'junit-reports/*.xml'
-//                     }
-//                 }
+
              }
+             post {
+                  always {
+                      // Publish ESLint results
+                      junit 'lintingResult.xml'
+                  }
+              }
             }
         }
         stage('Build the app') {
