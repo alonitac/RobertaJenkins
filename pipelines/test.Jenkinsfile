@@ -1,6 +1,11 @@
 pipeline {
     agent any
 
+    options {
+        timeout(time: 10, unit: 'MINUTES')
+        timestamps()
+    }
+
     stages {
         stage('Tests before build') {
             parallel {
