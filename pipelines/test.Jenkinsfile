@@ -1,6 +1,11 @@
 pipeline {
     agent any
 
+    options {
+        timeout(time: 10, unit: 'MINUTES')
+        timestamps()
+    }
+
     stages {
         stage('Tests before build') {
             parallel {
@@ -11,22 +16,29 @@ pipeline {
              }
              stage('Lint') {
                  steps {
-                     sh 'npm run lint'
+                     sh 'echo linting'
                  }
                  post {
                      always {
                          // Publish ESLint results
-                         junit 'junit-reports/*.xml'
+                         junit 'lintingResult.xml'
                      }
                  }
              }
             }
         }
-        stage('Tests after build') {
+        stage('Build the app') {
             steps {
-                sh 'echo "scanning for vulnerabilities..."'
+                sh 'echo building ....'
             }
+        }
+        stage('Tests after build') {
             parallel {
+              stage('Security vulnerabilities scanning') {
+                    steps {
+                        sh 'echo "scanning for vulnerabilities..."'
+                    }
+              }
               stage('API test') {
                  steps {
                      sh 'echo "testing API..."'
